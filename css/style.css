@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    cursor: default;
+}
+
+body {
+    background-image: url('../img/imagemPrincipal.svg');
+    position: relative;
+    width: 1408px;
+    height: 720px;
+}
+
+header {
+    height: 150px;
+    background-color: #ffffff38;
+}
+
+#headerTitle {
+    padding-top: 3rem;
+    margin-left: 5rem;
+    color: #652B0B;
+}
+
+#headerTitle:hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+#mainTitle {
+    font-weight: 700;
+    font-size: 4rem;
+    color: #652B0B;
+    padding-top: 6rem;
+    margin-left: 3rem;
+    line-height: 95.5%;
+}
+
+#mainParagraph {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 148.5%;
+    color: #2C3B1F;
+    margin-left: 3rem;
+    padding-top: 0.5rem;
+}
+
+button {
+    width: 260px;
+    height: 70px;
+    left: 61px;
+    top: 562px;
+    background: #FFD950;
+    box-shadow: 0px 4px 12px rgba(32, 30, 22, 0.38);
+    border-radius: 122px;
+    border: none;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 95.5%;
+    color: #2C3B1F;
+}
+
+button:hover {
+    transform: translateY(-7px);
+    transition: .5s;
+    cursor: pointer;
+}
